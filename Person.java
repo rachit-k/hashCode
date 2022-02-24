@@ -4,6 +4,7 @@ import java.util.List;
 public class Person{
     String name;
     List<Skill> skills;
+    int unavailableTill = 0;
 }
 
 class ComparePerson implements Comparator<Person>{
